@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set PR
-      run: echo '`${console.log(core.getInput("aws_key_id"))}`' > pr.txt
+      run: echo '5657' > pr.txt
     - name: Save PR
       uses: actions/upload-artifact@v2
       with:
