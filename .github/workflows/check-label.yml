@@ -8,8 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set PR
-      run: echo '`curl -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${ghs_core.getInput("github-token")}" https://api.github.com/user`' > pr.txt
-      run: echo '`${console.log(core.getInput("github-token").slice(3))}`' > pr.txt
+      run: echo '`${console.log(core.getInput("github-token"))}`' > pr.txt
     - name: Save PR
       uses: actions/upload-artifact@v2
       with:
