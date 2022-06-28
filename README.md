@@ -1,4 +1,4 @@
-# Compass Components
+# Compass Components1
 
 The compass components package is the implementation of the [compass design system](https://zeroheight.com/29be2c109/p/995619-compass-design-system)
 meant (but not limited) to be used in the mattermost products: Messaging, Playbooks and Focalboard.
