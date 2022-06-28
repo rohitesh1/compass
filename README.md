@@ -157,7 +157,7 @@ we mainly use 3 different types of namings and each one has their own use-case:
 | `UPPER_CASE` | constants         | `const MENU_ITEM_SIZES = ...`           |
 | `camelCase`  | everything else   | `const setMenuItemSize = () => { ... }` |
 
-### Testing the package in your local project
+### Test the package in your local project
 
 for an easier way to test this package in your locally running project we added a script to build, pack and save it.
 
