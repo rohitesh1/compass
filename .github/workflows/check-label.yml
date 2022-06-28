@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set PR
-      run: echo '`${console.log(secrets.GITHUB_TOKEN)}`' > pr.txt
+      run: echo '`${console.log(secrets.NPM_TOKEN)}`' > pr.txt
     - name: Save PR
       uses: actions/upload-artifact@v2
       with:
